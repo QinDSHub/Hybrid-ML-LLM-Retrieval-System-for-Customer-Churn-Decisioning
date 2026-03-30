@@ -176,6 +176,8 @@ churn-prediction-fastapi/
 ├── requirements.txt
 └── README.md
 
+---
+
 ## Project Status
 
 The FastAPI application has been implemented and locally validated.
@@ -212,7 +214,6 @@ In many real-world business problems, strong data cleaning, thoughtful feature e
 It also reflects my interest in designing practical intelligent systems that combine my expertise in ML/DL, LLMs, and Agentic AI.
 
 ---
-
 
 ## Discussion
 Feedback, technical suggestions, and collaboration are always welcome.
