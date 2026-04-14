@@ -292,6 +292,15 @@ One of my next priorities is to continue modularizing the core pipeline and inte
 •	automating evaluation, validation, and deployment as reusable workflows<br> 
 I am also interested in comparing this approach with Multi-Agent Workflows to better understand which architecture is more effective for maintainability, flexibility, and operational efficiency in production ML systems.
 
+## Testing Feedback on above future directions
+
+The initial goal was to directly integrate Agent Skills into this project—for example, enabling automated model execution and scheduled incremental updates. However, a key limitation emerged during testing: each project operates within an isolated virtual environment, and the current setup does not reliably support seamless environment switching or autonomous code execution by the agent.
+
+To address this, a lightweight demo was developed to demonstrate how Agent Skills can be effectively applied to well-defined, structured tasks using the Claude CLI.
+
+Demo video:
+https://youtu.be/_4f0pT6Slu0
+
 ---
 
 ## Tech stack
